@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      title: ["Jost"],
+      body: ["Rubik"],
+    },
     extend: {},
   },
   plugins: [
